@@ -3,12 +3,12 @@ const path = require('path');
 const app = express();
 
 // Serve static files....
-app.use(express.static(__dirname + '/dist/AngularMovies'));
+app.use(express.static(__dirname + '/dist/angularmovies'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/AngularMovies/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/angularmovies/index.html'));
 });
 
 // default Heroku PORT
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 3000);
