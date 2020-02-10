@@ -1,0 +1,39 @@
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+#nav{
+    width:62%;
+    padding-top: 10%;
+    background-color: transparent;
+    font-size: 14pt;
+    color:white;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+#search{
+    background-color: transparent;
+    width: 35%;
+    height:25px;
+    position: absolute;
+    left:68%;
+    top:24%;
+}
+#sidenav{
+    width:40%;
+    background-color: transparent;
+    color:black;
+    position: absolute; left:76%;
+    border-radius: 5px;
+    font-size: 16pt;
+}
+table,th,td{
+    width:248px;
+    border-bottom: 2px solid white;
+    border-collapse: collapse;
+}
+#sidenav a:hover{
+    color:rgb(196, 52, 52);
+    background-color: azure;
+    width: 90px;
+}
